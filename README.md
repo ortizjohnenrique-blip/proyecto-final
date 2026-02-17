@@ -1,0 +1,1 @@
+El presente informe detalla el ciclo completo de seguridad ejecutado sobre un servidor Debian. Se documenta desde la detección de una brecha en el servicio FTP, pasando por el descubrimiento de técnicas de evasión en la base de datos MariaDB, hasta la implementación de un marco normativo para prevenir futuros incidentes.
