@@ -1,0 +1,500 @@
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.4676] device (lo): Activation: starting connection 'lo' (bcc03410-5dc4-498e-a1c2-8d2c62ee4550)
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.4733] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.4859] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Feb 17 14:29:01 debian kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 17 14:29:01 debian kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Feb 17 14:29:01 debian dbus-daemon[400]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 17 14:29:01 debian systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.6310] device (lo): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.6335] device (lo): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.6340] device (lo): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.6362] device (enp0s3): carrier: link connected
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.6833] modem-manager: ModemManager available
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.6834] device (lo): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.6840] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.7252] policy: auto-activating connection 'Wired connection 1' (01fd2e06-d72b-466e-b879-b68fa0126e48)
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.7254] device (lo): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.7267] device (enp0s3): Activation: starting connection 'Wired connection 1' (01fd2e06-d72b-466e-b879-b68fa0126e48)
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.7272] device (lo): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.7302] device (lo): Activation: successful, device activated.
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.7321] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.7334] manager: NetworkManager state is now CONNECTING
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.7340] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.7627] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.8111] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Feb 17 14:29:01 debian avahi-daemon[392]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::a00:27ff:fe2f:e942.
+Feb 17 14:29:01 debian avahi-daemon[392]: New relevant interface enp0s3.IPv6 for mDNS.
+Feb 17 14:29:01 debian avahi-daemon[392]: Registering new address record for fe80::a00:27ff:fe2f:e942 on enp0s3.*.
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.9231] dhcp4 (enp0s3): state changed new lease, address=192.168.1.165
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.9275] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Feb 17 14:29:01 debian avahi-daemon[392]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 192.168.1.165.
+Feb 17 14:29:01 debian avahi-daemon[392]: New relevant interface enp0s3.IPv4 for mDNS.
+Feb 17 14:29:01 debian avahi-daemon[392]: Registering new address record for 192.168.1.165 on enp0s3.IPv4.
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.9648] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.9782] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.9784] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.9787] manager: NetworkManager state is now CONNECTED_SITE
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.9789] device (enp0s3): Activation: successful, device activated.
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.9793] manager: NetworkManager state is now CONNECTED_GLOBAL
+Feb 17 14:29:01 debian NetworkManager[467]: <info>  [1771356541.9796] manager: startup complete
+Feb 17 14:29:01 debian systemd[1]: Finished NetworkManager-wait-online.service - Network Manager Wait Online.
+Feb 17 14:29:01 debian systemd[1]: Reached target network-online.target - Network is Online.
+Feb 17 14:29:02 debian systemd[1]: Started cups-browsed.service - Make remote CUPS printers available locally.
+Feb 17 14:29:02 debian systemd[1]: phpsessionclean.service: Deactivated successfully.
+Feb 17 14:29:02 debian systemd[1]: Finished phpsessionclean.service - Clean php session files.
+Feb 17 14:29:02 debian mariadbd[729]: 2026-02-17 14:29:02 0 [Note] Starting MariaDB 10.11.6-MariaDB-0+deb12u1 source revision  as process 729
+Feb 17 14:29:03 debian ModemManager[493]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Feb 17 14:29:03 debian mariadbd[729]: 2026-02-17 14:29:03 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+Feb 17 14:29:03 debian mariadbd[729]: 2026-02-17 14:29:03 0 [Note] InnoDB: Number of transaction pools: 1
+Feb 17 14:29:03 debian mariadbd[729]: 2026-02-17 14:29:03 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+Feb 17 14:29:03 debian mariadbd[729]: 2026-02-17 14:29:03 0 [Note] InnoDB: Using liburing
+Feb 17 14:29:03 debian mariadbd[729]: 2026-02-17 14:29:03 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+Feb 17 14:29:03 debian systemd[1]: Reloading apache2.service - The Apache HTTP Server...
+Feb 17 14:29:03 debian systemd[1]: Reloaded apache2.service - The Apache HTTP Server.
+Feb 17 14:29:04 debian systemd[1]: Stopping cups-browsed.service - Make remote CUPS printers available locally...
+Feb 17 14:29:04 debian systemd[1]: cups-browsed.service: Deactivated successfully.
+Feb 17 14:29:04 debian systemd[1]: Stopped cups-browsed.service - Make remote CUPS printers available locally.
+Feb 17 14:29:04 debian systemd[1]: Stopping cups.service - CUPS Scheduler...
+Feb 17 14:29:04 debian systemd[1]: cups.service: Deactivated successfully.
+Feb 17 14:29:04 debian systemd[1]: Stopped cups.service - CUPS Scheduler.
+Feb 17 14:29:04 debian systemd[1]: cups.path: Deactivated successfully.
+Feb 17 14:29:04 debian systemd[1]: Stopped cups.path - CUPS Scheduler.
+Feb 17 14:29:04 debian systemd[1]: Stopping cups.path - CUPS Scheduler...
+Feb 17 14:29:04 debian systemd[1]: Started cups.path - CUPS Scheduler.
+Feb 17 14:29:04 debian systemd[1]: cups.socket: Deactivated successfully.
+Feb 17 14:29:04 debian systemd[1]: Closed cups.socket - CUPS Scheduler.
+Feb 17 14:29:04 debian systemd[1]: Stopping cups.socket - CUPS Scheduler...
+Feb 17 14:29:04 debian systemd[1]: Listening on cups.socket - CUPS Scheduler.
+Feb 17 14:29:04 debian systemd[1]: Starting cups.service - CUPS Scheduler...
+Feb 17 14:29:04 debian lightdm[790]: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=108) by (uid=0)
+Feb 17 14:29:04 debian systemd-logind[412]: New session c1 of user lightdm.
+Feb 17 14:29:04 debian systemd[1]: Created slice user-108.slice - User Slice of UID 108.
+Feb 17 14:29:04 debian systemd[1]: Starting user-runtime-dir@108.service - User Runtime Directory /run/user/108...
+Feb 17 14:29:04 debian systemd[1]: Started cups.service - CUPS Scheduler.
+Feb 17 14:29:04 debian systemd[1]: Started cups-browsed.service - Make remote CUPS printers available locally.
+Feb 17 14:29:04 debian audit[792]: AVC apparmor="DENIED" operation="capable" profile="/usr/sbin/cupsd" pid=792 comm="cupsd" capability=12  capname="net_admin"
+Feb 17 14:29:04 debian kernel: kauditd_printk_skb: 12 callbacks suppressed
+Feb 17 14:29:04 debian kernel: audit: type=1400 audit(1771356544.135:24): apparmor="DENIED" operation="capable" profile="/usr/sbin/cupsd" pid=792 comm="cupsd" capability=12  capname="net_admin"
+Feb 17 14:29:04 debian systemd[1]: Finished user-runtime-dir@108.service - User Runtime Directory /run/user/108.
+Feb 17 14:29:04 debian systemd[1]: Starting user@108.service - User Manager for UID 108...
+Feb 17 14:29:04 debian systemd[1]: logrotate.service: Deactivated successfully.
+Feb 17 14:29:04 debian systemd[1]: Finished logrotate.service - Rotate log files.
+Feb 17 14:29:04 debian (systemd)[797]: pam_unix(systemd-user:session): session opened for user lightdm(uid=108) by (uid=0)
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: Completed initialization of buffer pool
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2808550
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: End of log at LSN=3082353
+Feb 17 14:29:04 debian systemd[797]: Queued start job for default target default.target.
+Feb 17 14:29:04 debian systemd[797]: Created slice app.slice - User Application Slice.
+Feb 17 14:29:04 debian systemd[797]: Created slice session.slice - User Core Session Slice.
+Feb 17 14:29:04 debian systemd[797]: Reached target paths.target - Paths.
+Feb 17 14:29:04 debian systemd[797]: Reached target timers.target - Timers.
+Feb 17 14:29:04 debian systemd[797]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Feb 17 14:29:04 debian systemd[797]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Feb 17 14:29:04 debian systemd[797]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Feb 17 14:29:04 debian systemd[797]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Feb 17 14:29:04 debian systemd[797]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Feb 17 14:29:04 debian systemd[797]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Feb 17 14:29:04 debian systemd[797]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Feb 17 14:29:04 debian systemd[797]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Feb 17 14:29:04 debian systemd[797]: Listening on pulseaudio.socket - Sound System.
+Feb 17 14:29:04 debian systemd[797]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Feb 17 14:29:04 debian systemd[797]: Reached target sockets.target - Sockets.
+Feb 17 14:29:04 debian systemd[797]: Reached target basic.target - Basic System.
+Feb 17 14:29:04 debian systemd[1]: Started user@108.service - User Manager for UID 108.
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: To recover: 42 pages
+Feb 17 14:29:04 debian systemd[1]: Started session-c1.scope - Session c1 of User lightdm.
+Feb 17 14:29:04 debian systemd[797]: Starting pulseaudio.service - Sound Service...
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: 128 rollback segments are active.
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: log sequence number 3082353; transaction id 1462
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Warning] You need to use --log-bin to make --expire-logs-days or --binlog-expire-logs-seconds work.
+Feb 17 14:29:04 debian dbus-daemon[400]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.26' (uid=108 pid=819 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo")
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] Server socket created on IP: '0.0.0.0'.
+Feb 17 14:29:04 debian systemd[1]: Starting rtkit-daemon.service - RealtimeKit Scheduling Policy Service...
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] InnoDB: Buffer pool(s) load completed at 260217 14:29:04
+Feb 17 14:29:04 debian mariadbd[729]: 2026-02-17 14:29:04 0 [Note] /usr/sbin/mariadbd: ready for connections.
+Feb 17 14:29:04 debian mariadbd[729]: Version: '10.11.6-MariaDB-0+deb12u1'  socket: '/run/mysqld/mysqld.sock'  port: 8080  Debian 12
+Feb 17 14:29:04 debian dbus-daemon[400]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Feb 17 14:29:04 debian rtkit-daemon[826]: Successfully called chroot.
+Feb 17 14:29:04 debian rtkit-daemon[826]: Successfully dropped privileges.
+Feb 17 14:29:04 debian rtkit-daemon[826]: Successfully limited resources.
+Feb 17 14:29:04 debian systemd[1]: Started rtkit-daemon.service - RealtimeKit Scheduling Policy Service.
+Feb 17 14:29:04 debian rtkit-daemon[826]: Running.
+Feb 17 14:29:04 debian rtkit-daemon[826]: Canary thread running.
+Feb 17 14:29:04 debian rtkit-daemon[826]: Watchdog thread running.
+Feb 17 14:29:04 debian rtkit-daemon[826]: Successfully made thread 819 of process 819 owned by '108' high priority at nice level -11.
+Feb 17 14:29:04 debian rtkit-daemon[826]: Supervising 1 threads of 1 processes of 1 users.
+Feb 17 14:29:05 debian systemd[1]: Started mariadb.service - MariaDB 10.11.6 database server.
+Feb 17 14:29:05 debian systemd[1]: Starting exim4.service - LSB: exim Mail Transport Agent...
+Feb 17 14:29:05 debian /etc/mysql/debian-start[840]: Upgrading MySQL tables if necessary.
+Feb 17 14:29:05 debian systemd[797]: Starting dbus.service - D-Bus User Message Bus...
+Feb 17 14:29:05 debian systemd[797]: Started dbus.service - D-Bus User Message Bus.
+Feb 17 14:29:05 debian pulseaudio[819]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:05 debian pulseaudio[819]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:05 debian pulseaudio[819]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:05 debian pulseaudio[819]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:05 debian pulseaudio[819]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:05 debian pulseaudio[819]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:05 debian pulseaudio[819]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:05 debian pulseaudio[819]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:05 debian pulseaudio[819]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:05 debian pulseaudio[819]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:05 debian /etc/mysql/debian-start[922]: Checking for insecure root accounts.
+Feb 17 14:29:05 debian /etc/mysql/debian-start[945]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+Feb 17 14:29:05 debian pulseaudio[819]: Disabling timer-based scheduling because running inside a VM.
+Feb 17 14:29:05 debian rtkit-daemon[826]: Supervising 1 threads of 1 processes of 1 users.
+Feb 17 14:29:05 debian rtkit-daemon[826]: Successfully made thread 959 of process 819 owned by '108' RT at priority 5.
+Feb 17 14:29:05 debian rtkit-daemon[826]: Supervising 2 threads of 1 processes of 1 users.
+Feb 17 14:29:05 debian pulseaudio[819]: Disabling timer-based scheduling because running inside a VM.
+Feb 17 14:29:05 debian dbus-daemon[847]: [session uid=108 pid=847] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.2' (uid=108 pid=821 comm="/usr/sbin/lightdm-gtk-greeter")
+Feb 17 14:29:05 debian rtkit-daemon[826]: Supervising 2 threads of 1 processes of 1 users.
+Feb 17 14:29:05 debian systemd[797]: Starting at-spi-dbus-bus.service - Accessibility services bus...
+Feb 17 14:29:05 debian dbus-daemon[847]: [session uid=108 pid=847] Successfully activated service 'org.a11y.Bus'
+Feb 17 14:29:05 debian systemd[797]: Started at-spi-dbus-bus.service - Accessibility services bus.
+Feb 17 14:29:06 debian rtkit-daemon[826]: Successfully made thread 997 of process 819 owned by '108' RT at priority 5.
+Feb 17 14:29:06 debian rtkit-daemon[826]: Supervising 3 threads of 1 processes of 1 users.
+Feb 17 14:29:06 debian systemd[797]: Started pulseaudio.service - Sound Service.
+Feb 17 14:29:06 debian systemd[797]: Reached target default.target - Main User Target.
+Feb 17 14:29:06 debian systemd[797]: Startup finished in 1.894s.
+Feb 17 14:29:06 debian dbus-daemon[847]: [session uid=108 pid=847] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.4' (uid=108 pid=821 comm="/usr/sbin/lightdm-gtk-greeter")
+Feb 17 14:29:06 debian systemd[797]: Starting gvfs-daemon.service - Virtual filesystem service...
+Feb 17 14:29:06 debian dbus-daemon[847]: [session uid=108 pid=847] Successfully activated service 'org.gtk.vfs.Daemon'
+Feb 17 14:29:06 debian systemd[797]: Started gvfs-daemon.service - Virtual filesystem service.
+Feb 17 14:29:06 debian at-spi-bus-launcher[1021]: dbus-daemon[1021]: Activating service name='org.a11y.atspi.Registry' requested by ':1.1' (uid=108 pid=822 comm="/usr/bin/python3 /usr/bin/orca --replace --no-setu")
+Feb 17 14:29:06 debian at-spi-bus-launcher[1021]: dbus-daemon[1021]: Successfully activated service 'org.a11y.atspi.Registry'
+Feb 17 14:29:06 debian at-spi-bus-launcher[1127]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Feb 17 14:29:06 debian exim4[841]: Starting MTA: exim4.
+Feb 17 14:29:06 debian systemd[1]: Started exim4.service - LSB: exim Mail Transport Agent.
+Feb 17 14:29:06 debian systemd[1]: Reached target multi-user.target - Multi-User System.
+Feb 17 14:29:06 debian systemd[1]: Reached target graphical.target - Graphical Interface.
+Feb 17 14:29:06 debian systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+Feb 17 14:29:06 debian systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Feb 17 14:29:06 debian systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+Feb 17 14:29:06 debian systemd[1]: Startup finished in 6.355s (kernel) + 11.585s (userspace) = 17.941s.
+Feb 17 14:29:09 debian pulseaudio[819]: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Feb 17 14:29:09 debian pulseaudio[819]: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Feb 17 14:29:09 debian pulseaudio[819]: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Feb 17 14:29:12 debian systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Feb 17 14:29:28 debian systemd-timesyncd[310]: Contacted time server 92.113.12.78:123 (2.debian.pool.ntp.org).
+Feb 17 14:29:28 debian systemd-timesyncd[310]: Initial clock synchronization to Tue 2026-02-17 14:29:28.718099 EST.
+Feb 17 14:29:28 debian lightdm[1255]: gkr-pam: unable to locate daemon control file
+Feb 17 14:29:28 debian lightdm[1255]: gkr-pam: stashed password to try later in open session
+Feb 17 14:29:29 debian systemd[1]: Stopping session-c1.scope - Session c1 of User lightdm...
+Feb 17 14:29:29 debian lightdm[790]: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Feb 17 14:29:29 debian lightdm[1255]: pam_unix(lightdm:session): session opened for user debian(uid=1000) by (uid=0)
+Feb 17 14:29:29 debian systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+Feb 17 14:29:29 debian systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+Feb 17 14:29:29 debian systemd-logind[412]: New session 2 of user debian.
+Feb 17 14:29:29 debian systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+Feb 17 14:29:29 debian systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+Feb 17 14:29:29 debian (systemd)[1284]: pam_unix(systemd-user:session): session opened for user debian(uid=1000) by (uid=0)
+Feb 17 14:29:29 debian systemd[1284]: Queued start job for default target default.target.
+Feb 17 14:29:29 debian systemd[1284]: Created slice app.slice - User Application Slice.
+Feb 17 14:29:29 debian systemd[1284]: Created slice session.slice - User Core Session Slice.
+Feb 17 14:29:29 debian systemd[1284]: Reached target paths.target - Paths.
+Feb 17 14:29:29 debian systemd[1284]: Reached target timers.target - Timers.
+Feb 17 14:29:29 debian systemd[1284]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Feb 17 14:29:29 debian systemd[1284]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Feb 17 14:29:29 debian systemd[1284]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Feb 17 14:29:29 debian systemd[1284]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Feb 17 14:29:29 debian systemd[1284]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Feb 17 14:29:29 debian systemd[1284]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Feb 17 14:29:29 debian systemd[1284]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Feb 17 14:29:29 debian systemd[1284]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Feb 17 14:29:29 debian systemd[1284]: Listening on pulseaudio.socket - Sound System.
+Feb 17 14:29:29 debian systemd[1284]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Feb 17 14:29:29 debian systemd[1284]: Reached target sockets.target - Sockets.
+Feb 17 14:29:29 debian systemd[1284]: Reached target basic.target - Basic System.
+Feb 17 14:29:29 debian systemd[1]: Started user@1000.service - User Manager for UID 1000.
+Feb 17 14:29:29 debian systemd[1]: Started session-2.scope - Session 2 of User debian.
+Feb 17 14:29:29 debian systemd[1284]: Starting pulseaudio.service - Sound Service...
+Feb 17 14:29:29 debian rtkit-daemon[826]: Successfully made thread 1303 of process 1303 owned by '1000' high priority at nice level -11.
+Feb 17 14:29:29 debian rtkit-daemon[826]: Supervising 4 threads of 2 processes of 2 users.
+Feb 17 14:29:29 debian systemd[1284]: Started gnome-keyring-daemon.service - GNOME Keyring daemon.
+Feb 17 14:29:29 debian systemd[1284]: Starting dbus.service - D-Bus User Message Bus...
+Feb 17 14:29:29 debian systemd[1284]: Started dbus.service - D-Bus User Message Bus.
+Feb 17 14:29:29 debian pulseaudio[1303]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:29 debian pulseaudio[1303]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:29 debian pulseaudio[1303]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:29 debian pulseaudio[1303]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:29 debian pulseaudio[1303]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:29 debian pulseaudio[1303]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:29 debian pulseaudio[1303]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:29 debian pulseaudio[1303]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:29 debian pulseaudio[1303]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:29 debian pulseaudio[1303]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Feb 17 14:29:29 debian gnome-keyring-daemon[1308]: GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+Feb 17 14:29:29 debian pulseaudio[1303]: Disabling timer-based scheduling because running inside a VM.
+Feb 17 14:29:29 debian rtkit-daemon[826]: Supervising 4 threads of 2 processes of 2 users.
+Feb 17 14:29:30 debian lightdm[1255]: gkr-pam: unlocked login keyring
+Feb 17 14:29:30 debian rtkit-daemon[826]: Successfully made thread 1313 of process 1303 owned by '1000' RT at priority 5.
+Feb 17 14:29:30 debian rtkit-daemon[826]: Supervising 5 threads of 2 processes of 2 users.
+Feb 17 14:29:30 debian pulseaudio[1303]: Disabling timer-based scheduling because running inside a VM.
+Feb 17 14:29:30 debian rtkit-daemon[826]: Supervising 5 threads of 2 processes of 2 users.
+Feb 17 14:29:30 debian rtkit-daemon[826]: Successfully made thread 1319 of process 1303 owned by '1000' RT at priority 5.
+Feb 17 14:29:30 debian rtkit-daemon[826]: Supervising 6 threads of 2 processes of 2 users.
+Feb 17 14:29:30 debian systemd[1284]: Started pulseaudio.service - Sound Service.
+Feb 17 14:29:30 debian systemd[1284]: Reached target default.target - Main User Target.
+Feb 17 14:29:30 debian systemd[1284]: Startup finished in 924ms.
+Feb 17 14:29:30 debian systemd[797]: pulseaudio.service: Consumed 1.579s CPU time.
+Feb 17 14:29:30 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.7' (uid=1000 pid=1317 comm="x-session-manager")
+Feb 17 14:29:30 debian systemd[1284]: Starting at-spi-dbus-bus.service - Accessibility services bus...
+Feb 17 14:29:30 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.a11y.Bus'
+Feb 17 14:29:30 debian systemd[1284]: Started at-spi-dbus-bus.service - Accessibility services bus.
+Feb 17 14:29:30 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.11' (uid=1000 pid=1317 comm="x-session-manager")
+Feb 17 14:29:30 debian systemd[1284]: Starting dconf.service - User preferences database...
+Feb 17 14:29:30 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'ca.desrt.dconf'
+Feb 17 14:29:30 debian systemd[1284]: Started dconf.service - User preferences database.
+Feb 17 14:29:30 debian x-session-manager[1317]: WARNING: Unable to find provider '' of required component 'dock'
+Feb 17 14:29:30 debian at-spi-bus-launcher[1376]: dbus-daemon[1376]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=1317 comm="x-session-manager")
+Feb 17 14:29:30 debian gnome-keyring-daemon[1308]: The Secret Service was already initialized
+Feb 17 14:29:30 debian gnome-keyring-d[1308]: The Secret Service was already initialized
+Feb 17 14:29:30 debian gnome-keyring-daemon[1308]: The PKCS#11 component was already initialized
+Feb 17 14:29:30 debian gnome-keyring-d[1308]: The PKCS#11 component was already initialized
+Feb 17 14:29:30 debian gnome-keyring-daemon[1397]: discover_other_daemon: 1
+Feb 17 14:29:30 debian at-spi-bus-launcher[1376]: dbus-daemon[1376]: Successfully activated service 'org.a11y.atspi.Registry'
+Feb 17 14:29:30 debian at-spi-bus-launcher[1400]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Feb 17 14:29:31 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.14' (uid=1000 pid=1398 comm="/usr/bin/mate-settings-daemon")
+Feb 17 14:29:31 debian systemd[1284]: Starting gvfs-daemon.service - Virtual filesystem service...
+Feb 17 14:29:31 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.gtk.vfs.Daemon'
+Feb 17 14:29:31 debian systemd[1284]: Started gvfs-daemon.service - Virtual filesystem service.
+Feb 17 14:29:31 debian pulseaudio[1303]: ALSA woke us up to read new data from the device, but there was actually nothing to read.
+Feb 17 14:29:31 debian pulseaudio[1303]: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Feb 17 14:29:31 debian pulseaudio[1303]: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Feb 17 14:29:31 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.14' (uid=1000 pid=1398 comm="/usr/bin/mate-settings-daemon")
+Feb 17 14:29:31 debian systemd[1284]: Starting gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+Feb 17 14:29:31 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Feb 17 14:29:31 debian systemd[1284]: Started gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+Feb 17 14:29:31 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.14' (uid=1000 pid=1398 comm="/usr/bin/mate-settings-daemon")
+Feb 17 14:29:31 debian systemd[1284]: Starting gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+Feb 17 14:29:31 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Feb 17 14:29:31 debian systemd[1284]: Started gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+Feb 17 14:29:31 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.14' (uid=1000 pid=1398 comm="/usr/bin/mate-settings-daemon")
+Feb 17 14:29:31 debian systemd[1284]: Starting gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+Feb 17 14:29:31 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Feb 17 14:29:31 debian systemd[1284]: Started gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.14' (uid=1000 pid=1398 comm="/usr/bin/mate-settings-daemon")
+Feb 17 14:29:32 debian systemd[1284]: Starting gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+Feb 17 14:29:32 debian gnome-keyring-daemon[1308]: The SSH agent was already initialized
+Feb 17 14:29:32 debian gnome-keyring-d[1308]: The SSH agent was already initialized
+Feb 17 14:29:32 debian gnome-keyring-daemon[1468]: discover_other_daemon: 1
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Feb 17 14:29:32 debian systemd[1284]: Started gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+Feb 17 14:29:32 debian gnome-keyring-daemon[1308]: The Secret Service was already initialized
+Feb 17 14:29:32 debian gnome-keyring-d[1308]: The Secret Service was already initialized
+Feb 17 14:29:32 debian gnome-keyring-daemon[1477]: discover_other_daemon: 1
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.14' (uid=1000 pid=1398 comm="/usr/bin/mate-settings-daemon")
+Feb 17 14:29:32 debian systemd[1284]: Starting gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+Feb 17 14:29:32 debian gnome-keyring-daemon[1308]: The PKCS#11 component was already initialized
+Feb 17 14:29:32 debian gnome-keyring-d[1308]: The PKCS#11 component was already initialized
+Feb 17 14:29:32 debian gnome-keyring-daemon[1482]: discover_other_daemon: 1
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Feb 17 14:29:32 debian systemd[1284]: Started gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating service name='org.mate.panel.applet.WnckletFactory' requested by ':1.19' (uid=1000 pid=1427 comm="mate-panel")
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating service name='org.mate.panel.applet.ClockAppletFactory' requested by ':1.19' (uid=1000 pid=1427 comm="mate-panel")
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating service name='org.mate.panel.applet.NotificationAreaAppletFactory' requested by ':1.19' (uid=1000 pid=1427 comm="mate-panel")
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.26' (uid=1000 pid=1451 comm="/usr/bin/caja")
+Feb 17 14:29:32 debian systemd[1284]: Starting xdg-desktop-portal.service - Portal service...
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.mate.panel.applet.NotificationAreaAppletFactory'
+Feb 17 14:29:32 debian polkitd[408]: Registered Authentication Agent for unix-session:2 (system bus name :1.46 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.mate.panel.applet.WnckletFactory'
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.mate.panel.applet.ClockAppletFactory'
+Feb 17 14:29:32 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.36' (uid=1000 pid=1511 comm="/usr/libexec/xdg-desktop-portal")
+Feb 17 14:29:32 debian systemd[1284]: Starting xdg-document-portal.service - flatpak document portal service...
+Feb 17 14:29:33 debian dbus-daemon[400]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.47' (uid=1000 pid=1484 comm="mate-power-manager")
+Feb 17 14:29:33 debian systemd[1]: Starting upower.service - Daemon for power management...
+Feb 17 14:29:33 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.38' (uid=1000 pid=1528 comm="/usr/libexec/xdg-document-portal")
+Feb 17 14:29:33 debian systemd[1284]: Starting xdg-permission-store.service - sandboxed app permission store...
+Feb 17 14:29:33 debian dbus-daemon[400]: [system] Successfully activated service 'org.freedesktop.UPower'
+Feb 17 14:29:33 debian systemd[1]: Started upower.service - Daemon for power management.
+Feb 17 14:29:33 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Feb 17 14:29:33 debian systemd[1284]: Started xdg-permission-store.service - sandboxed app permission store.
+Feb 17 14:29:33 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.freedesktop.portal.Documents'
+Feb 17 14:29:33 debian systemd[1284]: Started xdg-document-portal.service - flatpak document portal service.
+Feb 17 14:29:33 debian xdg-document-portal[1528]: Ignoring invalid max threads value 4294967295 > max (100000).
+Feb 17 14:29:33 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.36' (uid=1000 pid=1511 comm="/usr/libexec/xdg-desktop-portal")
+Feb 17 14:29:33 debian systemd[1284]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+Feb 17 14:29:34 debian dbus-daemon[400]: [system] Activating service name='org.mate.SettingsDaemon.DateTimeMechanism' requested by ':1.50' (uid=1000 pid=1495 comm="/usr/lib/mate-panel/clock-applet") (using servicehelper)
+Feb 17 14:29:34 debian dbus-daemon[400]: [system] Successfully activated service 'org.mate.SettingsDaemon.DateTimeMechanism'
+Feb 17 14:29:34 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+Feb 17 14:29:34 debian systemd[1284]: Started xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+Feb 17 14:29:34 debian rtkit-daemon[826]: Supervising 3 threads of 1 processes of 1 users.
+Feb 17 14:29:34 debian rtkit-daemon[826]: Supervising 3 threads of 1 processes of 1 users.
+Feb 17 14:29:34 debian rtkit-daemon[826]: Supervising 3 threads of 1 processes of 1 users.
+Feb 17 14:29:34 debian xdg-desktop-portal[1511]: pw.conf: can't load config client.conf: No such file or directory
+Feb 17 14:29:34 debian xdg-desktop-portal[1511]: pw.conf: can't load default config client.conf: No such file or directory
+Feb 17 14:29:34 debian xdg-desktop-por[1511]: Failed connect to PipeWire: Couldn't create PipeWire context
+Feb 17 14:29:34 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.freedesktop.portal.Desktop'
+Feb 17 14:29:34 debian systemd[1284]: Started xdg-desktop-portal.service - Portal service.
+Feb 17 14:29:34 debian NetworkManager[467]: <info>  [1771356574.7227] agent-manager: agent[f1ef25e2ebdff298,:1.49/org.freedesktop.nm-applet/1000]: agent registered
+Feb 17 14:29:34 debian clock-applet[1495]: Negative content width -7 (allocation 1, extents 4x4) while allocating gadget (node button, owner GtkToggleButton)
+Feb 17 14:29:34 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Activating service name='org.freedesktop.Notifications' requested by ':1.37' (uid=1000 pid=1488 comm="nm-applet")
+Feb 17 14:29:34 debian dbus-daemon[1309]: [session uid=1000 pid=1309] Successfully activated service 'org.freedesktop.Notifications'
+Feb 17 14:29:35 debian pulseaudio[1303]: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Feb 17 14:29:35 debian pulseaudio[1303]: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Feb 17 14:29:35 debian pulseaudio[1303]: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Feb 17 14:29:39 debian systemd[1]: session-c1.scope: Deactivated successfully.
+Feb 17 14:29:39 debian systemd[1]: Stopped session-c1.scope - Session c1 of User lightdm.
+Feb 17 14:29:39 debian systemd[1]: session-c1.scope: Consumed 6.111s CPU time.
+Feb 17 14:29:39 debian systemd-logind[412]: Removed session c1.
+Feb 17 14:29:49 debian systemd[1]: Stopping user@108.service - User Manager for UID 108...
+Feb 17 14:29:49 debian systemd[797]: Activating special unit exit.target...
+Feb 17 14:29:49 debian systemd[797]: Stopped target default.target - Main User Target.
+Feb 17 14:29:49 debian systemd[797]: Stopping at-spi-dbus-bus.service - Accessibility services bus...
+Feb 17 14:29:49 debian systemd[797]: Stopping dbus.service - D-Bus User Message Bus...
+Feb 17 14:29:49 debian systemd[797]: Stopping gvfs-daemon.service - Virtual filesystem service...
+Feb 17 14:29:49 debian systemd[797]: Stopped at-spi-dbus-bus.service - Accessibility services bus.
+Feb 17 14:29:49 debian systemd[1]: run-user-108-gvfs.mount: Deactivated successfully.
+Feb 17 14:29:49 debian systemd[797]: Stopped gvfs-daemon.service - Virtual filesystem service.
+Feb 17 14:29:49 debian systemd[797]: Stopped dbus.service - D-Bus User Message Bus.
+Feb 17 14:29:49 debian systemd[797]: Removed slice session.slice - User Core Session Slice.
+Feb 17 14:29:49 debian systemd[797]: session.slice: Consumed 2.058s CPU time.
+Feb 17 14:29:49 debian systemd[797]: Stopped target basic.target - Basic System.
+Feb 17 14:29:49 debian systemd[797]: Stopped target paths.target - Paths.
+Feb 17 14:29:49 debian systemd[797]: Stopped target sockets.target - Sockets.
+Feb 17 14:29:49 debian systemd[797]: Stopped target timers.target - Timers.
+Feb 17 14:29:49 debian systemd[797]: Closed dbus.socket - D-Bus User Message Bus Socket.
+Feb 17 14:29:49 debian systemd[797]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+Feb 17 14:29:49 debian systemd[797]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Feb 17 14:29:49 debian systemd[797]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Feb 17 14:29:49 debian systemd[797]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Feb 17 14:29:49 debian systemd[797]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Feb 17 14:29:49 debian systemd[797]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Feb 17 14:29:49 debian systemd[797]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Feb 17 14:29:49 debian systemd[797]: Closed pulseaudio.socket - Sound System.
+Feb 17 14:29:49 debian systemd[797]: Removed slice app.slice - User Application Slice.
+Feb 17 14:29:49 debian systemd[797]: Reached target shutdown.target - Shutdown.
+Feb 17 14:29:49 debian systemd[797]: Finished systemd-exit.service - Exit the Session.
+Feb 17 14:29:49 debian systemd[797]: Reached target exit.target - Exit the Session.
+Feb 17 14:29:49 debian (sd-pam)[800]: pam_unix(systemd-user:session): session closed for user lightdm
+Feb 17 14:29:49 debian systemd[1]: user@108.service: Deactivated successfully.
+Feb 17 14:29:49 debian systemd[1]: Stopped user@108.service - User Manager for UID 108.
+Feb 17 14:29:49 debian systemd[1]: user@108.service: Consumed 2.347s CPU time.
+Feb 17 14:29:49 debian systemd[1]: Stopping user-runtime-dir@108.service - User Runtime Directory /run/user/108...
+Feb 17 14:29:49 debian systemd[1]: run-user-108.mount: Deactivated successfully.
+Feb 17 14:29:49 debian systemd[1]: user-runtime-dir@108.service: Deactivated successfully.
+Feb 17 14:29:49 debian systemd[1]: Stopped user-runtime-dir@108.service - User Runtime Directory /run/user/108.
+Feb 17 14:29:49 debian systemd[1]: Removed slice user-108.slice - User Slice of UID 108.
+Feb 17 14:29:49 debian systemd[1]: user-108.slice: Consumed 8.483s CPU time.
+Feb 17 14:30:01 debian systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Feb 17 14:30:01 debian CRON[1832]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 17 14:30:01 debian CRON[1833]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Feb 17 14:30:01 debian CRON[1832]: pam_unix(cron:session): session closed for user root
+Feb 17 14:33:58 debian anacron[386]: Job `cron.daily' started
+Feb 17 14:33:58 debian anacron[2088]: Updated timestamp for job `cron.daily' to 2026-02-17
+Feb 17 14:33:58 debian anacron[386]: Job `cron.daily' terminated
+Feb 17 14:33:58 debian anacron[386]: Normal exit (1 job run)
+Feb 17 14:33:58 debian systemd[1]: anacron.service: Deactivated successfully.
+Feb 17 14:36:44 debian sudo[2204]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/mkdir /tmp/evidencias_descarga
+Feb 17 14:36:44 debian sudo[2204]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 14:36:44 debian sudo[2204]: pam_unix(sudo:session): session closed for user root
+Feb 17 14:37:20 debian sudo[2251]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/chown debian:debian /tmp/evidencias_descarga
+Feb 17 14:37:20 debian sudo[2251]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 14:37:20 debian sudo[2251]: pam_unix(sudo:session): session closed for user root
+Feb 17 14:38:40 debian sudo[2424]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cp /etc/vsftpd.conf /tmp/evidencias_descarga/vsftpd_config.txt
+Feb 17 14:38:40 debian sudo[2424]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 14:38:40 debian sudo[2424]: pam_unix(sudo:session): session closed for user root
+Feb 17 14:39:01 debian CRON[2448]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 17 14:39:01 debian CRON[2449]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Feb 17 14:39:01 debian CRON[2448]: pam_unix(cron:session): session closed for user root
+Feb 17 14:39:03 debian systemd[1]: Starting phpsessionclean.service - Clean php session files...
+Feb 17 14:39:03 debian systemd[1]: phpsessionclean.service: Deactivated successfully.
+Feb 17 14:39:03 debian systemd[1]: Finished phpsessionclean.service - Clean php session files.
+Feb 17 14:41:36 debian sudo[2618]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cp /etc/mysql/mariadb.conf.d/50-server.cnf /tmp/evidencias_descarga/mariadb_config.txt
+Feb 17 14:41:36 debian sudo[2618]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 14:41:36 debian sudo[2618]: pam_unix(sudo:session): session closed for user root
+Feb 17 14:44:01 debian systemd[1]: Starting apt-daily-upgrade.service - Daily apt upgrade and clean activities...
+Feb 17 14:44:01 debian systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+Feb 17 14:44:01 debian systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Feb 17 14:44:01 debian systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+Feb 17 14:44:01 debian systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+Feb 17 14:44:02 debian systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+Feb 17 14:44:02 debian systemd[1]: Finished apt-daily-upgrade.service - Daily apt upgrade and clean activities.
+Feb 17 14:44:22 debian sudo[2802]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log/tmp/evidencias_descarga/analisis_auth.txt
+Feb 17 14:44:22 debian sudo[2802]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 14:44:22 debian sudo[2802]: pam_unix(sudo:session): session closed for user root
+Feb 17 14:45:07 debian sudo[2843]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /tmp/evidencias_descarga/analisis_auth.txt
+Feb 17 14:45:07 debian sudo[2843]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 14:45:07 debian sudo[2843]: pam_unix(sudo:session): session closed for user root
+Feb 17 14:46:29 debian sudo[2923]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cp /var/www/html/wp-config.php /tmp/evidencias_descarga/wp-config_audit.ph
+Feb 17 14:46:29 debian sudo[2923]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 14:46:29 debian sudo[2923]: pam_unix(sudo:session): session closed for user root
+Feb 17 14:54:10 debian sshd[2936]: Accepted password for debian from 192.168.1.234 port 35168 ssh2
+Feb 17 14:54:10 debian sshd[2936]: pam_unix(sshd:session): session opened for user debian(uid=1000) by (uid=0)
+Feb 17 14:54:10 debian systemd-logind[412]: New session 6 of user debian.
+Feb 17 14:54:10 debian systemd[1]: Started session-6.scope - Session 6 of User debian.
+Feb 17 14:54:10 debian sshd[2936]: pam_env(sshd:session): deprecated reading of user environment enabled
+Feb 17 14:54:10 debian sshd[2943]: Received disconnect from 192.168.1.234 port 35168:11: disconnected by user
+Feb 17 14:54:10 debian sshd[2943]: Disconnected from user debian 192.168.1.234 port 35168
+Feb 17 14:54:10 debian sshd[2936]: pam_unix(sshd:session): session closed for user debian
+Feb 17 14:54:10 debian systemd[1]: session-6.scope: Deactivated successfully.
+Feb 17 14:54:10 debian systemd-logind[412]: Session 6 logged out. Waiting for processes to exit.
+Feb 17 14:54:10 debian systemd-logind[412]: Removed session 6.
+Feb 17 14:54:23 debian sshd[2947]: Accepted password for debian from 192.168.1.234 port 46400 ssh2
+Feb 17 14:54:23 debian sshd[2947]: pam_unix(sshd:session): session opened for user debian(uid=1000) by (uid=0)
+Feb 17 14:54:23 debian systemd-logind[412]: New session 7 of user debian.
+Feb 17 14:54:23 debian systemd[1]: Started session-7.scope - Session 7 of User debian.
+Feb 17 14:54:23 debian sshd[2947]: pam_env(sshd:session): deprecated reading of user environment enabled
+Feb 17 14:54:23 debian sshd[2954]: Received disconnect from 192.168.1.234 port 46400:11: disconnected by user
+Feb 17 14:54:23 debian sshd[2954]: Disconnected from user debian 192.168.1.234 port 46400
+Feb 17 14:54:23 debian sshd[2947]: pam_unix(sshd:session): session closed for user debian
+Feb 17 14:54:23 debian systemd[1]: session-7.scope: Deactivated successfully.
+Feb 17 14:54:23 debian systemd-logind[412]: Session 7 logged out. Waiting for processes to exit.
+Feb 17 14:54:23 debian systemd-logind[412]: Removed session 7.
+Feb 17 14:55:30 debian sshd[2956]: Accepted password for debian from 192.168.1.234 port 43988 ssh2
+Feb 17 14:55:30 debian sshd[2956]: pam_unix(sshd:session): session opened for user debian(uid=1000) by (uid=0)
+Feb 17 14:55:30 debian systemd-logind[412]: New session 8 of user debian.
+Feb 17 14:55:30 debian systemd[1]: Started session-8.scope - Session 8 of User debian.
+Feb 17 14:55:30 debian sshd[2956]: pam_env(sshd:session): deprecated reading of user environment enabled
+Feb 17 14:55:30 debian sshd[2962]: Received disconnect from 192.168.1.234 port 43988:11: disconnected by user
+Feb 17 14:55:30 debian sshd[2962]: Disconnected from user debian 192.168.1.234 port 43988
+Feb 17 14:55:30 debian systemd-logind[412]: Session 8 logged out. Waiting for processes to exit.
+Feb 17 14:55:30 debian sshd[2956]: pam_unix(sshd:session): session closed for user debian
+Feb 17 14:55:30 debian systemd[1]: session-8.scope: Deactivated successfully.
+Feb 17 14:55:30 debian systemd-logind[412]: Removed session 8.
+Feb 17 14:58:28 debian sudo[3040]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cp /home/debian/ .bash_history/tmp/evidencias_descargas/historial_comandos.txt
+Feb 17 14:58:28 debian sudo[3040]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 14:58:28 debian sudo[3040]: pam_unix(sudo:session): session closed for user root
+Feb 17 14:59:03 debian systemd[1]: Starting chkrootkit.service - chkrootkit...
+Feb 17 14:59:03 debian crontab[3121]: (root) LIST (nobody)
+Feb 17 14:59:25 debian chkrootkit-daily[3046]: sending alert to root: [chkrootkit] alert for debian.debian
+Feb 17 14:59:25 debian systemd[1]: chkrootkit.service: Deactivated successfully.
+Feb 17 14:59:25 debian systemd[1]: Finished chkrootkit.service - chkrootkit.
+Feb 17 14:59:25 debian systemd[1]: chkrootkit.service: Consumed 13.367s CPU time.
+Feb 17 14:59:37 debian sudo[3873]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cp /home/debian/.bash_history/tmp/evidencias_descargas/historial_comandos.txt
+Feb 17 14:59:37 debian sudo[3873]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 14:59:37 debian sudo[3873]: pam_unix(sudo:session): session closed for user root
+Feb 17 15:00:23 debian sudo[3939]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cp /home/debian/.bash_history /tmp/evidencias_descargas/historial_comandos.txt
+Feb 17 15:00:23 debian sudo[3939]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 15:00:23 debian sudo[3939]: pam_unix(sudo:session): session closed for user root
+Feb 17 15:01:41 debian sudo[4008]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cp /etc/passwd /tmp/evidencias_descarga/logs_sistema.txt
+Feb 17 15:01:41 debian sudo[4008]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 15:01:41 debian sudo[4008]: pam_unix(sudo:session): session closed for user root
+Feb 17 15:05:24 debian sudo[4187]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/mkdir -p /tmp/evidencias_descarga
+Feb 17 15:05:24 debian sudo[4187]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 15:05:24 debian sudo[4187]: pam_unix(sudo:session): session closed for user root
+Feb 17 15:05:24 debian sudo[4190]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/chmod 777 /tmp/evidencias_descarga
+Feb 17 15:05:24 debian sudo[4190]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 15:05:24 debian sudo[4190]: pam_unix(sudo:session): session closed for user root
+Feb 17 15:07:28 debian sudo[4279]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cp /home/debian/.bash_history /tmp/evidencias_descarga/historial.txt
+Feb 17 15:07:28 debian sudo[4279]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 15:07:28 debian sudo[4279]: pam_unix(sudo:session): session closed for user root
+Feb 17 15:08:22 debian sudo[4338]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/cp /etc/passwd /tmp/evidencias_descarga/usuarios.txt
+Feb 17 15:08:22 debian sudo[4338]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 15:08:22 debian sudo[4338]: pam_unix(sudo:session): session closed for user root
+Feb 17 15:09:01 debian CRON[4343]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 17 15:09:01 debian CRON[4344]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Feb 17 15:09:01 debian CRON[4343]: pam_unix(cron:session): session closed for user root
+Feb 17 15:09:03 debian systemd[1]: Starting phpsessionclean.service - Clean php session files...
+Feb 17 15:09:03 debian systemd[1]: phpsessionclean.service: Deactivated successfully.
+Feb 17 15:09:03 debian systemd[1]: Finished phpsessionclean.service - Clean php session files.
+Feb 17 15:10:15 debian sudo[4475]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/sh -c 'tail -n 500 /var/log/syslog > /tmp/evidencias_descarga/logs.txt'
+Feb 17 15:10:15 debian sudo[4475]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 17 15:10:15 debian sudo[4475]: pam_unix(sudo:session): session closed for user root
+Feb 17 15:12:03 debian sudo[4560]:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/journalctl -n 500
+Feb 17 15:12:03 debian sudo[4560]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)

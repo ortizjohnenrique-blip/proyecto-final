@@ -1,0 +1,78 @@
+sudo systemctl stop speech-dispatcher
+sudo usermood -aG root debian
+pwd
+sudo usermood -aG sudo debian
+whoami
+sudo visudo
+su
+sudo rmod speakup
+sudo rmmod speakup
+sudo rmmod speakup_soft
+sudo apt-get remove speakup
+sudo apt-get remove speakup_soft
+sudo ls /etc
+sudo ls /etc/modprobe.d/
+sudo nano /etc/modprobe.d/blacklist-speakup.conf
+sudo nano /etc/default/grub
+sudo update-grub
+sudo reboot
+dpkg -l | grep -i speech
+sudo apt-get remove speech
+dpkg -l | grep -i voice
+dpkg -l | grep -i espeak
+sudo apt-get remove espeak
+sudo apt-get remove espeakup
+sudo apt-get remove libespeak
+sudo nano /etc/modprobe.d/blacklist-speakup.conf
+dpkg -l | grep -i festival
+dpkg -l | grep -i espeakup
+sudo apt-get remove espeakup
+sudo systemctl disable espeakup
+sv-inst
+sudo systemd-sysv-install disable espeakup
+sudo /lib/systemd/systemd-sysv-install disable espeakup
+sudo service espeakup stop
+sudo systemctl status espeakup
+sudo apt-get install git
+git --version
+pwd
+ls
+sudo apt update && sudo apt upgrade -y
+sudo apt install apache2 -y
+sudo systemctl enable apache2
+sudo systemctl start apache2
+sudo systemctl status apache2
+sudo apt install mysql-server php php-mysqli -y
+sudo apt install mariadb-server -y
+sudo systemctl start maria-db
+sudo apt install mariadb-server
+sudo systemctl start mariadb-server
+sudo systemctl start mariadb
+sudo systemctl enable mariadb
+sudo mysql_secure_installation
+sudo mysql -u root -p
+cd /tmp
+curl -O https://wordpress.org/latest.tar.gz
+sudo apt install curl
+curl -O https://wordpress.org/latest.tar.gz
+tar xzvf latest.tar.gz
+sudo cp -a /tmp/wordpress/. /var/www/html/
+sudo chown -R www-data:www-data /var/www/html/
+sudo chmod -R 755 /var/www/html/
+cd /var/www/html/
+sudo mv wp-config-sample.php wp-config.php
+sudo nano wp-config.php
+ip a
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo apt install php libapache2-mod-php php-mysqli php-gd php-xml php-mbstring php-curl -y
+cd ..
+sudo nano /etc/apache2/sites-available/000-default.conf 
+sudo systemctl restart apache2
+sudo nano /var/www/html/info.php
+ls /var/www/html
+sudo apt install openssh-server -y
+sudo systemctl start ssh
+sudo systemctl enable ssh
+sudo systemctl status ssh
+sudo systemctl start apache2
